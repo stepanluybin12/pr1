@@ -1,91 +1,152 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Рево-кофе</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <img src="assets/img/banner.png" alt="Баннер с кофе">
-        <h1>Твой кофе</h1>
-        <img src="assets/img/LOGO.png" alt="логотип">
-        <aside>
-            <img src="assets/icons/shopping-cart-3.png" alt="иконка магазина">
-            <nav>
-                <p>coffee1</p>
-                <p>coffee2</p>
-                <p>coffee3</p>
-                <p>coffee4</p>
-            </nav>
-        </aside>
+    <header class="header">
+
+        <div class="header__left--bg">
+            <img class="header__logo" src="assets/img/LOGO.png" alt="логотип">
+        </div>
+
+        <img class="header__banner" src="assets/img/banner.png" alt="Баннер с кофе">
+        <h1 class="header__title">
+            <div class="header__title-line">ТВОЙ</div>
+            <div class="header__title-line header__title-line--middle">ЛЮБИМЫЙ</div>
+            <div class="header__title-line">КОФЕ</div>
+        </h1>
+
+        <div class="header__right--bg">
+
+
+            <img class="header__cart--icon" src="assets/icons/shopping-cart-3.png" alt="иконка магазина">
+            <a href="#products" class="header__products-link">
+                Перейти на страницу с выбором кофе
+            </a>
+            <aside class="header__aside">
+                <nav class="header__nav">
+                    <p class="header__nav--item">Кофе 1</p>
+                    <p class="header__nav--item">Кофе 2</p>
+                    <p class="header__nav--item">Кофе 3</p>
+                    <p class="header__nav--item">Кофе 4</p>
+                </nav>
+            </aside>
+        </div>
     </header>
     <main>
-        <section>
-            <h2>Заголовок уровня 2</h2>
-            <div>
-                <img src="assets/icons/ic.png" alt="иконка 1">
-                <p>Не&nbsp;следует, однако, забывать, что семантический разбор внешних противодействий обеспечивает широкому кругу (специалистов) участие в&nbsp;формировании укрепления моральных ценностей.</p>
+        <section class="features">
+            <h2 class="features__title">Заголовок уровня 2</h2>
+            <div class="features__list">
+                <div class="features__item">
+                    <img class="features__icon" src="assets/icons/ic.png" alt="иконка 1">
+                    <p class="features__text">Не&nbsp;следует, однако, забывать, что семантический разбор внешних
+                        противодействий обеспечивает широкому кругу (специалистов) участие в&nbsp;формировании
+                        укрепления моральных ценностей.</p>
+                </div>
+                <div class="features__item">
+                    <img class="features__icon" src="assets/icons/IC(1).png" alt="иконка 2">
+                    <p class="features__text">Банальные, но&nbsp;неопровержимые выводы, а&nbsp;также многие известные
+                        личности преданы социально-демократической анафеме.</p>
+                </div>
+                <div class="features__item">
+                    <img class="features__icon" src="assets/icons/IC(2).png" alt="иконка 3">
+                    <p class="features__text">Как уже неоднократно упомянуто, многие известные личности будут
+                        ассоциативно распределены по&nbsp;отраслям.</p>
+                </div>
+                <div class="features__item">
+                    <img class="features__icon" src="assets/icons/IC(3).png" alt="иконка 4">
+                    <p class="features__text">Равным образом, экономическая повестка сегодняшнего дня играет
+                        определяющее значение для соответствующих условий активизации.</p>
+                </div>
             </div>
-            <div>
-                <img src="assets/icons/IC(1).png" alt="иконка 2">
-                <p>Банальные, но&nbsp;неопровержимые выводы, а&nbsp;также многие известные личности преданы социально-демократической анафеме.</p>
-            </div>
-            <div>
-                <img src="assets/icons/IC(2).png" alt="иконка 3">
-                <p>Как уже неоднократно упомянуто, многие известные личности будут ассоциативно распределены по&nbsp;отраслям.</p>
-            </div>
-            <div>
-                <img src="assets/icons/IC(3).png" alt="иконка 4">
-                <p>Равным образом, экономическая повестка сегодняшнего дня играет определяющее значение для соответствующих условий активизации.</p>
-            </div>
+        </section>
 
         </section>
-        <section>
-            <h2>Заголовок уровня 2</h2>
-            <div>
-                <img src="assets/img/image(1).png" alt="картинка 1">
-                <p>Однозначно, элементы политического процесса формируют глобальную экономическую сеть и&nbsp;при этом&nbsp;&mdash; описаны максимально подробно.</p>
-            </div>
-            <div>
-                <img src="assets/img/IMAGE(2).png" alt="картинка 2">
-                <p>Безусловно, убеждённость некоторых оппонентов предполагает независимые способы реализации новых предложений.</p>
-            </div>
-            <div>
-                <img src="assets/img/IMAGE(3).png" alt="картинка 3">
-                <p>Как уже неоднократно упомянуто, действия представителей оппозиции неоднозначны и&nbsp;будут описаны максимально подробно.</p>
-            </div>
-            <div>
-                <img src="assets/img/IMAGE.png" alt="картинка 4">
-                <p>Современные технологии достигли такого уровня, что реализация намеченных плановых заданий предопределяет высокую востребованность инновационных методов управления процессами.</p>
+        <section id="products" class="products">
+            <h2 class="products__title">Заголовок уровня 2</h2>
+
+            <div class="products__item">
+                <img class="products__image" src="assets/img/image(1).png" alt="картинка 1">
+                <p class="products__text">Однозначно, элементы политического процесса формируют глобальную экономическую
+                    сеть и&nbsp;при этом&nbsp;&mdash; описаны максимально подробно.</p>
+                <button class="products__button">Добавить в корзину</button>
             </div>
 
+            <div class="products__item">
+                <img class="products__image" src="assets/img/IMAGE(2).png" alt="картинка 2">
+                <p class="products__text">Безусловно, убеждённость некоторых оппонентов предполагает независимые способы
+                    реализации новых предложений.</p>
+                <button class="products__button">Добавить в корзину</button>
+            </div>
+
+            <div class="products__item">
+                <img class="products__image" src="assets/img/IMAGE(3).png" alt="картинка 3">
+                <p class="products__text">Как уже неоднократно упомянуто, действия представителей оппозиции неоднозначны
+                    и&nbsp;будут описаны максимально подробно.</p>
+                <button class="products__button">Добавить в корзину</button>
+            </div>
+
+            <div class="products__item">
+                <img class="products__image" src="assets/img/IMAGE.png" alt="картинка 4">
+                <p class="products__text">Современные технологии достигли такого уровня, что реализация намеченных
+                    плановых заданий предопределяет высокую востребованность инновационных методов управления
+                    процессами.</p>
+                <button class="products__button">Добавить в корзину</button>
+            </div>
         </section>
-        <section>
-            <h2>Заголовок уровня 2</h2>
-            <img src="assets/img/pr-0018-r.png" alt="изображение">
-            <p>Значимость этих проблем настолько очевидна, что дальнейшее развитие различных форм деятельности создаёт предпосылки для новых предложений. Но&nbsp;курс на&nbsp;социально-ориентированный национальный проект влечет за&nbsp;собой процесс внедрения и&nbsp;модернизации как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений. В&nbsp;своём стремлении улучшить пользовательский опыт мы&nbsp;упускаем, что сторонники тоталитаризма в&nbsp;науке могут быть функционально разнесены на&nbsp;независимые элементы.</p>
+        <section class="about">
+            <h2 class="about__title">Заголовок уровня 2</h2>
 
+            <img class="about__image" src="assets/img/pr-0018-r.png" alt="изображение">
+            <div class="about__text-block">
+                <p class="about__text">Значимость этих проблем настолько очевидна, что дальнейшее развитие различных
+                    форм деятельности создаёт предпосылки для новых предложений. Но&nbsp;курс
+                    на&nbsp;социально-ориентированный национальный проект влечет за&nbsp;собой процесс внедрения
+                    и&nbsp;модернизации как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.
+                    В&nbsp;своём стремлении улучшить пользовательский опыт мы&nbsp;упускаем, что сторонники
+                    тоталитаризма в&nbsp;науке могут быть функционально разнесены на&nbsp;независимые элементы.</p>
+            </div>
         </section>
-        <section>
-            <h2>Заголовок уровня 2</h2>
-            <div>
-                <img src="assets/img/image(6).png" alt="иконка 1">
-                <p>Как принято считать, ключевые особенности структуры проекта подвергнуты целой серии независимых исследований.</p>
-            </div>
-            <div>
-                <img src="assets/img/image(7).png" alt="иконка 2">
-                <p>Лишь ключевые особенности структуры проекта формируют глобальную экономическую сеть и&nbsp;при этом&nbsp;&mdash; объективно рассмотрены соответствующими инстанциями.</p>
-            </div>
-            <div>
-                <img src="assets/img/image(8).png" alt="иконка 3">
-                <p>Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление позволяет выполнить важные задания по&nbsp;разработке переосмысления внешнеэкономических политик.</p>
-            </div>
+        <section class="gallery">
+            <h2 class="gallery__title">Заголовок уровня 2</h2>
 
+            <div class="gallery__items">
+                <div class="gallery__item">
+                    <img class="gallery__image" src="assets/img/image(6).png" alt="иконка 1">
+                    <p class="gallery__text">Как принято считать, ключевые особенности структуры проекта подвергнуты
+                        целой серии независимых исследований.</p>
+                </div>
+
+                <div class="gallery__item">
+                    <img class="gallery__image" src="assets/img/image(7).png" alt="иконка 2">
+                    <p class="gallery__text">Лишь ключевые особенности структуры проекта формируют глобальную
+                        экономическую сеть и&nbsp;при этом&nbsp;&mdash; объективно рассмотрены соответствующими
+                        инстанциями.</p>
+                </div>
+
+                <div class="gallery__item">
+                    <img class="gallery__image" src="assets/img/image(8).png" alt="иконка 3">
+                    <p class="gallery__text">Для современного мира разбавленное изрядной долей эмпатии, рациональное
+                        мышление позволяет выполнить важные задания по&nbsp;разработке переосмысления
+                        внешнеэкономических политик.</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <p>Повседневная практика показывает, что начало повседневной работы по&nbsp;формированию позиции обеспечивает широкому кругу (специалистов) участие в&nbsp;формировании прогресса профессионального сообщества!</p>
+        <p>Повседневная практика показывает, что начало повседневной работы по&nbsp;формированию позиции обеспечивает
+            широкому кругу (специалистов) участие в&nbsp;формировании прогресса профессионального сообщества!</p>
     </footer>
 </body>
+
 </html>
